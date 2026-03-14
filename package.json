@@ -1,0 +1,23 @@
+{
+  "name": "petersthal-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "NUXT_TELEMETRY_DISABLED=1 nuxt dev -p 9002",
+    "build": "NUXT_TELEMETRY_DISABLED=1 nuxt build",
+    "preview": "NUXT_TELEMETRY_DISABLED=1 nuxt preview",
+    "typecheck": "NUXT_TELEMETRY_DISABLED=1 nuxt typecheck",
+    "postinstall": "NUXT_TELEMETRY_DISABLED=1 nuxt prepare"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.4",
+    "nuxt": "^3.17.5",
+    "unstorage": "^1.15.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.57",
+    "typescript": "^5.8.2",
+    "vue-tsc": "^2.2.8"
+  }
+}
