@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Club } from '~/src/lib/types'
+import type { Club } from '~/lib/types'
 
 defineProps<{
   club: Club

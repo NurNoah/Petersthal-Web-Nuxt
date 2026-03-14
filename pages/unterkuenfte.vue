@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { accommodations } from '~/src/lib/data'
+import { accommodations } from '~/lib/data'
 
 useSeoMeta({
   title: 'Unterkuenfte',

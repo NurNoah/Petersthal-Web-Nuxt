@@ -1,4 +1,4 @@
-import type { Event } from '~/src/lib/types'
+import type { Event } from '~/lib/types'
 
 function pad(value: number) {
   return String(value).padStart(2, '0')
@@ -86,3 +86,4 @@ export function sortEventsDescending(events: Event[]) {
     (left, right) => getEventDateTime(right).getTime() - getEventDateTime(left).getTime(),
   )
 }
+

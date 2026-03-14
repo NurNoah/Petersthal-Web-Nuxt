@@ -1,5 +1,5 @@
 import { setResponseHeader } from 'h3'
-import { clubs } from '~/src/lib/data'
+import { clubs } from '~/lib/data'
 
 export default defineEventHandler((event) => {
   const lastModified = new Date().toISOString()

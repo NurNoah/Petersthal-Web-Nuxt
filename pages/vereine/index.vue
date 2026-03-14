@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { clubs } from '~/src/lib/data'
+import { clubs } from '~/lib/data'
 
 useSeoMeta({
   title: 'Vereine',

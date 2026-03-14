@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { busConnections } from '~/src/lib/data'
+import { busConnections } from '~/lib/data'
 
 useSeoMeta({
   title: 'Anfahrt',

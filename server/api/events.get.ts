@@ -1,5 +1,5 @@
 import { createError, getQuery } from 'h3'
-import type { Event } from '~/src/lib/types'
+import type { Event } from '~/lib/types'
 import { getPublicSupabaseClient } from '~/server/utils/supabase'
 import { isUpcomingEvent } from '~/utils/events'
 

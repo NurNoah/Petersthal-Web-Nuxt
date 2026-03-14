@@ -1,5 +1,5 @@
 import { createError } from 'h3'
-import type { Event } from '~/src/lib/types'
+import type { Event } from '~/lib/types'
 import { requireAdminSession } from '~/server/utils/admin-session'
 import { getAdminSupabaseClient } from '~/server/utils/supabase'
 

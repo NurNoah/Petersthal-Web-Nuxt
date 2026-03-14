@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { createError } from '#app'
-import { clubs } from '~/src/lib/data'
-import type { Event } from '~/src/lib/types'
+import { clubs } from '~/lib/data'
+import type { Event } from '~/lib/types'
 import {
   isPastEvent,
   isUpcomingEvent,

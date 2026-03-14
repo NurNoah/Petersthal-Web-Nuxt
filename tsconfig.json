@@ -4,18 +4,6 @@
     "types": ["node"]
   },
   "exclude": [
-    ".next",
-    "node_modules",
-    "next-env.d.ts",
-    "next.config.ts",
-    "src/app",
-    "src/components",
-    "src/hooks",
-    "src/middleware.ts",
-    "src/lib/utils.ts",
-    "src/lib/supabaseClient.ts",
-    "src/tailwind.config.ts",
-    "tailwind.config.ts",
-    "postcss.config.mjs"
+    "node_modules"
   ]
 }

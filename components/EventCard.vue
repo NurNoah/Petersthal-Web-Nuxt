@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { clubs } from '~/src/lib/data'
-import type { Event } from '~/src/lib/types'
+import { clubs } from '~/lib/data'
+import type { Event } from '~/lib/types'
 import {
   formatEventDate,
   formatEventTime,

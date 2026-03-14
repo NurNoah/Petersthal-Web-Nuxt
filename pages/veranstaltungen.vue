@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Event } from '~/src/lib/types'
+import type { Event } from '~/lib/types'
 import {
   isPastEvent,
   isUpcomingEvent,

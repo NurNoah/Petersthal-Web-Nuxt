@@ -1,6 +1,6 @@
 # Petersthal Web
 
-Nuxt 3 migration of the Petersthal village portal.
+Nuxt 3 village portal for Petersthal.
 
 ## Setup
 
@@ -11,18 +11,11 @@ npm run dev
 
 ## Required environment variables
 
-Preferred:
-
 - `SUPABASE_URL`
 - `SUPABASE_ANON_KEY`
 - `SUPABASE_SERVICE_ROLE_KEY`
 - `ADMIN_PASSWORD`
 - `ADMIN_SESSION_SECRET`
-
-Supported for backward compatibility with the old Next setup:
-
-- `NEXT_PUBLIC_SUPABASE_URL`
-- `NEXT_PUBLIC_SUPABASE_ANON_KEY`
 
 ## Security notes
 

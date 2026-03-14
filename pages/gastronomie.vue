@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { restaurants } from '~/src/lib/data'
+import { restaurants } from '~/lib/data'
 
 useSeoMeta({
   title: 'Gastronomie',

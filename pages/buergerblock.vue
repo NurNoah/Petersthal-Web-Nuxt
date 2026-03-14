@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { candidates } from '~/src/lib/data'
+import { candidates } from '~/lib/data'
 
 useSeoMeta({
   title: 'Buergerblock',
