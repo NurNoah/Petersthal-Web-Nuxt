@@ -10,9 +10,14 @@ export default defineNuxtConfig({
   runtimeConfig: {
     adminPassword: process.env.ADMIN_PASSWORD,
     adminSessionSecret: process.env.ADMIN_SESSION_SECRET,
-    supabaseUrl: process.env.SUPABASE_URL,
+    supabaseUrl:
+      process.env.SUPABASE_URL ||
+      process.env.NEXT_PUBLIC_SUPABASE_URL ||
+      process.env.NUXT_PUBLIC_SUPABASE_URL,
     supabaseAnonKey:
-      process.env.SUPABASE_ANON_KEY,
+      process.env.SUPABASE_ANON_KEY ||
+      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ||
+      process.env.NUXT_PUBLIC_SUPABASE_ANON_KEY,
     supabaseServiceRoleKey: process.env.SUPABASE_SERVICE_ROLE_KEY,
     public: {
       siteUrl: process.env.NUXT_PUBLIC_SITE_URL ?? 'https://www.petersthal.info',
@@ -58,4 +63,3 @@ export default defineNuxtConfig({
     },
   },
 })
-

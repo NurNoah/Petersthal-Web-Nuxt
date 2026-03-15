@@ -17,6 +17,9 @@ npm run dev
 - `ADMIN_PASSWORD`
 - `ADMIN_SESSION_SECRET`
 
+The app also accepts `NEXT_PUBLIC_SUPABASE_URL` and
+`NEXT_PUBLIC_SUPABASE_ANON_KEY` as fallbacks for existing deployments.
+
 ## Security notes
 
 - Supabase requests now run through Nuxt server routes under `server/api`.
